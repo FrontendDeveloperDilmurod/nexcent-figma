@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #F5F5F5;
+}
+
+header {
+    z-index: 10001 !important;
+}
+
+.containerrr {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.btn-primary {
+    @apply bg-brnadPrimary text-white py-2 px-7 rounded hover:bg-neutralDGrey transition-all duration-300
+}
